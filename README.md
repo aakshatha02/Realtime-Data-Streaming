@@ -1,6 +1,6 @@
 # Realtime-Data Streaming with Airflow, Kafka, Cassandra and Docker
 
-#### This project implements a real-time data streaming using Apache Airflow, Apache Kafka, Cassandra and Docker. It fetches random users data from external API(https://randomuser.me/api/) and it streams the data through Kafka and stores it in Cassandra database, all while orchestrating the flow with Airflow. This setup uses Docker containers to orchestrate and manage the services for the easy deployment and scalability.
+This project implements a real-time data streaming using Apache Airflow, Apache Kafka, Cassandra and Docker. It fetches random users data from external API(https://randomuser.me/api/) and it streams the data through Kafka and stores it in Cassandra database, all while orchestrating the flow with Airflow. This setup uses Docker containers to orchestrate and manage the services for the easy deployment and scalability.
 
 ## Architecture Overview!
 

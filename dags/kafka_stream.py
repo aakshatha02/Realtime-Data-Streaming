@@ -38,7 +38,7 @@ def format_data(res):
     return data
 
 # Function to continuously send messages to Kafka
-def send_test_message():
+def send_user_data():
     logging.info("Starting to send user data to Kafka...")
 
     producer = KafkaProducer(bootstrap_servers=['broker:29092'], max_block_ms=5000)
@@ -133,7 +133,7 @@ with DAG('real_time_stream', default_args=default_args, schedule_interval=None) 
 
     send_message_task = PythonOperator(
         task_id='send_message_to_kafka',
-        python_callable=send_test_message
+        python_callable=send_user_data
     )
 
     consume_message_task = PythonOperator(

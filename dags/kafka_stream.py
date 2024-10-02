@@ -57,7 +57,7 @@ def send_user_data():
     producer.close()
     logging.info("Finished sending user data to Kafka.")
 
-# Function to consume first names from Kafka and store in Cassandra
+# Function to consume user details from Kafka and store in Cassandra
 def consume_and_store(**kwargs):
     logging.info("Starting Kafka Consumer...")
 

@@ -5,7 +5,7 @@ This project implements a real-time data streaming using Apache Airflow, Apache 
 ## Architecture Overview!
 
 <div align="center">
-  <img width="694" alt="https://github.com/aakshatha02/Realtime-Data-Pipeline/blob/main/Architecture.png">
+  <img width="694" alt="Architecture Overview" src="https://github.com/aakshatha02/Realtime-Data-Pipeline/blob/main/Architecture.png">
 </div>
 
 ## Components Involved
